@@ -27,7 +27,7 @@ How to use this config in other repository (your repo):
 
 ## Hacking to the Gate~! 🧑‍💻🎶
 
-[MIT License][license-url] © Latif Sulistyo
+[MIT License][license-url] © Nikaple
 
 <!-- Variables -->
 

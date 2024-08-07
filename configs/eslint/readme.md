@@ -59,7 +59,7 @@ If you found weird behavior or suggestions, please file a [new issue](https://gi
 
 ## Hacking to the Gate~! 🧑‍💻🎶
 
-[MIT License][license-url] © Latif Sulistyo
+[MIT License][license-url] © Nikaple
 
 <!-- Variables -->
 

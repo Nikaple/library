@@ -18,7 +18,7 @@
 
 ## Hacking to the Gate~! 🧑‍💻🎶
 
-[MIT License](./license) © Latif Sulistyo
+[MIT License](./license) © Nikaple
 
 <!-- Variables -->
 

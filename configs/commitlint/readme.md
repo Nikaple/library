@@ -36,7 +36,7 @@ Use with [@commitlint/cli](https://npm.im/@commitlint/cli) and [commitizen](http
 
 ## Hacking to the Gate~! 🧑‍💻🎶
 
-[MIT License][license-url] © Latif Sulistyo
+[MIT License][license-url] © Nikaple
 
 <!-- Variables -->
 

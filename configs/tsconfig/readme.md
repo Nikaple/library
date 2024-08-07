@@ -56,7 +56,7 @@ This means, `files`, `include`, `exclude`, and other properties that accept rela
 
 ## Hacking to the Gate~! 🧑‍💻🎶
 
-[MIT License][license-url] © Latif Sulistyo
+[MIT License][license-url] © Nikaple
 
 <!-- Variables -->
 

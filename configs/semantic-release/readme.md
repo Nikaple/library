@@ -70,7 +70,7 @@ Shareable `semantic-release` configuration enforcing [conventional commits](http
 
 ## Hacking to the Gate~! 🧑‍💻🎶
 
-[MIT License][license-url] © Latif Sulistyo
+[MIT License][license-url] © Nikaple
 
 <!-- Variables -->
 

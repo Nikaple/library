@@ -10,8 +10,8 @@
     "directory": "configs/tsconfig"
   },
   "author": {
-    "name": "Latif Sulistyo",
-    "email": "latifsulistyo.me@gmail.com"
+    "name": "Nikaple",
+    "email": "nikaple1@gmail.com"
   },
   "engines": {
     "node": ">=14.8.0"
