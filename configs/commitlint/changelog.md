@@ -3,43 +3,43 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org) and [Conventional Commits](https://www.conventionalcommits.org) for commit guidelines.
 
-## [@latipun7/commitlintrc-v1.1.3](https://github.com/latipun7/library/compare/@latipun7/commitlintrc@1.1.2...@latipun7/commitlintrc@1.1.3) (2021-12-06)
+## [@nikaple/commitlintrc-v1.1.3](https://github.com/nikaple/library/compare/@nikaple/commitlintrc@1.1.2...@nikaple/commitlintrc@1.1.3) (2021-12-06)
 
 ### 🐛 Fixes
 
-- **commitlintrc:** change `helpUrl` [`e6650bb`](https://github.com/latipun7/library/commit/e6650bb349915454b8903a1918642b9cddbec7e6).
+- **commitlintrc:** change `helpUrl` [`e6650bb`](https://github.com/nikaple/library/commit/e6650bb349915454b8903a1918642b9cddbec7e6).
 
-- **meta:** use RGI emoji 🥷 [`e90b913`](https://github.com/latipun7/library/commit/e90b91381d9ffdfb228548b5b760d2bda93da034).
+- **meta:** use RGI emoji 🥷 [`e90b913`](https://github.com/nikaple/library/commit/e90b91381d9ffdfb228548b5b760d2bda93da034).
 
-## [@latipun7/commitlintrc-v1.1.2](https://github.com/latipun7/library/compare/@latipun7/commitlintrc@1.1.1...@latipun7/commitlintrc@1.1.2) (2021-11-18)
-
-### 🐛 Fixes
-
-- don't publish map files to reduce size [`a87bf89`](https://github.com/latipun7/library/commit/a87bf8975dd4ec38937ba2bde436a0ccc9bb8b49).
-
-## [@latipun7/commitlintrc-v1.1.1](https://github.com/latipun7/library/compare/@latipun7/commitlintrc@1.1.0...@latipun7/commitlintrc@1.1.1) (2021-11-09)
+## [@nikaple/commitlintrc-v1.1.2](https://github.com/nikaple/library/compare/@nikaple/commitlintrc@1.1.1...@nikaple/commitlintrc@1.1.2) (2021-11-18)
 
 ### 🐛 Fixes
 
-- correct package's metadata 🔍 [`3fd921c`](https://github.com/latipun7/library/commit/3fd921c1ab4c198d9c7fad23565574a5b08992b5).
+- don't publish map files to reduce size [`a87bf89`](https://github.com/nikaple/library/commit/a87bf8975dd4ec38937ba2bde436a0ccc9bb8b49).
 
-## [@latipun7/commitlintrc-v1.1.0](https://github.com/latipun7/library/compare/@latipun7/commitlintrc@1.0.1...@latipun7/commitlintrc@1.1.0) (2021-11-02)
+## [@nikaple/commitlintrc-v1.1.1](https://github.com/nikaple/library/compare/@nikaple/commitlintrc@1.1.0...@nikaple/commitlintrc@1.1.1) (2021-11-09)
+
+### 🐛 Fixes
+
+- correct package's metadata 🔍 [`3fd921c`](https://github.com/nikaple/library/commit/3fd921c1ab4c198d9c7fad23565574a5b08992b5).
+
+## [@nikaple/commitlintrc-v1.1.0](https://github.com/nikaple/library/compare/@nikaple/commitlintrc@1.0.1...@nikaple/commitlintrc@1.1.0) (2021-11-02)
 
 ### ✨ Features
 
-- **commitlintrc:** add `helpUrl` & prompt settings [`c462bb8`](https://github.com/latipun7/library/commit/c462bb805199aeebb01d3e8b5b4dc640ad2f8ecd).
+- **commitlintrc:** add `helpUrl` & prompt settings [`c462bb8`](https://github.com/nikaple/library/commit/c462bb805199aeebb01d3e8b5b4dc640ad2f8ecd).
 
-## [@latipun7/commitlintrc-v1.0.1](https://github.com/latipun7/library/compare/@latipun7/commitlintrc@1.0.0...@latipun7/commitlintrc@1.0.1) (2021-11-01)
+## [@nikaple/commitlintrc-v1.0.1](https://github.com/nikaple/library/compare/@nikaple/commitlintrc@1.0.0...@nikaple/commitlintrc@1.0.1) (2021-11-01)
 
 ### 🐛 Fixes
 
-- specify `peerDependencies` explicitly [`2eda436`](https://github.com/latipun7/library/commit/2eda43686d003cd34129d121fbac08de770f6a63).
+- specify `peerDependencies` explicitly [`2eda436`](https://github.com/nikaple/library/commit/2eda43686d003cd34129d121fbac08de770f6a63).
 
-## @latipun7/commitlintrc-v1.0.0 (2021-08-12)
+## @nikaple/commitlintrc-v1.0.0 (2021-08-12)
 
 ### ✨ Features
 
-- **commitlintrc:** initial release ✨🚀 [`4dda0ee`](https://github.com/latipun7/library/commit/4dda0ee4baba4d79a39f6758197ed3d28defc640).
+- **commitlintrc:** initial release ✨🚀 [`4dda0ee`](https://github.com/nikaple/library/commit/4dda0ee4baba4d79a39f6758197ed3d28defc640).
 
   - Shareable `commitlint` config enforcing [conventional commits specs](https://www.conventionalcommits.org/en/v1.0.0/#specification).
   - Add custom commit `type`: feature, revert, security.

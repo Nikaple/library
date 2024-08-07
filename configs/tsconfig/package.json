@@ -1,12 +1,12 @@
 {
-  "name": "@latipun7/tsconfig",
+  "name": "@nikaple/tsconfig",
   "version": "1.2.1",
   "description": "🥷 Nerdy Ninja's shareable TypeScript configuration 🎯",
   "license": "MIT",
-  "homepage": "https://github.com/latipun7/library/tree/main/configs/tsconfig#readme",
+  "homepage": "https://github.com/nikaple/library/tree/main/configs/tsconfig#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/latipun7/library.git",
+    "url": "https://github.com/nikaple/library.git",
     "directory": "configs/tsconfig"
   },
   "author": {

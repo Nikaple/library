@@ -3,7 +3,7 @@ import type { UserConfig } from '@commitlint/types';
 const Configuration: UserConfig = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   helpUrl:
-    'https://github.com/latipun7/.github/blob/main/commit-message-guide.md',
+    'https://github.com/nikaple/.github/blob/main/commit-message-guide.md',
   rules: {
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],

@@ -1,4 +1,4 @@
-# `@latipun7/releaserc 🥷🚀`
+# `@nikaple/releaserc 🥷🚀`
 
 [![Discord][discord-image]][discord-url]
 [![GitHub Workflow Status][workflow-image]][workflow-url]
@@ -10,7 +10,7 @@
 
 ## About
 
-Shareable `semantic-release` configuration enforcing [conventional commits](https://github.com/latipun7/.github/blob/main/commit-message-guide.md).
+Shareable `semantic-release` configuration enforcing [conventional commits](https://github.com/nikaple/.github/blob/main/commit-message-guide.md).
 
 - Semantic Release adheres to [conventional commits specs](https://www.conventionalcommits.org/en/v1.0.0/#specification).
 - Add commit `type`: feature, revert, security.
@@ -25,14 +25,14 @@ Shareable `semantic-release` configuration enforcing [conventional commits](http
 - Standard repository (NPM)
 
   ```sh
-  yarn add -D @latipun7/releaserc semantic-release
+  yarn add -D @nikaple/releaserc semantic-release
   ```
 
   ```json
   // package.json
   "release": {
     "extends": [
-      "@latipun7/releaserc"
+      "@nikaple/releaserc"
     ]
   }
   ```
@@ -40,7 +40,7 @@ Shareable `semantic-release` configuration enforcing [conventional commits](http
 - Monorepo (NPM)
 
   ```sh
-  yarn add -D @latipun7/releaserc semantic-release semantic-release-monorepo
+  yarn add -D @nikaple/releaserc semantic-release semantic-release-monorepo
   ```
 
   ```json
@@ -48,7 +48,7 @@ Shareable `semantic-release` configuration enforcing [conventional commits](http
   "release": {
     "extends": [
       "semantic-release-monorepo",
-      "@latipun7/releaserc/monorepo"
+      "@nikaple/releaserc/monorepo"
     ]
   }
   ```
@@ -56,14 +56,14 @@ Shareable `semantic-release` configuration enforcing [conventional commits](http
 - VSCode Extension repository
 
   ```sh
-  yarn add -D @latipun7/releaserc semantic-release
+  yarn add -D @nikaple/releaserc semantic-release
   ```
 
   ```json
   // package.json
   "release": {
     "extends": [
-      "@latipun7/releaserc/vsce"
+      "@nikaple/releaserc/vsce"
     ]
   }
   ```
@@ -76,8 +76,8 @@ Shareable `semantic-release` configuration enforcing [conventional commits](http
 
 [discord-image]: https://img.shields.io/discord/758271814153011201?label=Developers%20Indonesia&logo=discord&style=flat-square
 [discord-url]: https://discord.gg/njSj2Nq "Chat and discuss at Developers Indonesia"
-[workflow-image]: https://img.shields.io/github/workflow/status/latipun7/library/%E2%9A%99%F0%9F%9A%80?label=CI%2FCD&logo=github-actions&style=flat-square
-[workflow-url]: https://github.com/latipun7/library/actions "GitHub Actions"
-[npm-image]: https://img.shields.io/npm/v/@latipun7/releaserc?label=package&logo=npm&style=flat-square
-[npm-url]: https://npmjs.org/package/@latipun7/releaserc "@latipun7/releaserc on NPM"
-[license-url]: https://github.com/latipun7/library/blob/main/license "MIT License"
+[workflow-image]: https://img.shields.io/github/workflow/status/nikaple/library/%E2%9A%99%F0%9F%9A%80?label=CI%2FCD&logo=github-actions&style=flat-square
+[workflow-url]: https://github.com/nikaple/library/actions "GitHub Actions"
+[npm-image]: https://img.shields.io/npm/v/@nikaple/releaserc?label=package&logo=npm&style=flat-square
+[npm-url]: https://npmjs.org/package/@nikaple/releaserc "@nikaple/releaserc on NPM"
+[license-url]: https://github.com/nikaple/library/blob/main/license "MIT License"

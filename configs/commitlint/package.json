@@ -1,12 +1,12 @@
 {
-  "name": "@latipun7/commitlintrc",
+  "name": "@nikaple/commitlintrc",
   "version": "1.1.3",
   "description": "🥷 Nerdy Ninja's shareable Commitlint configuration 🗃",
   "license": "MIT",
-  "homepage": "https://github.com/latipun7/library/tree/main/configs/commitlint#readme",
+  "homepage": "https://github.com/nikaple/library/tree/main/configs/commitlint#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/latipun7/library.git",
+    "url": "https://github.com/nikaple/library.git",
     "directory": "configs/commitlint"
   },
   "author": {

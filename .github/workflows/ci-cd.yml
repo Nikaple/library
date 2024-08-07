@@ -100,8 +100,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GIT_AUTHOR_NAME: latipun7
+          GIT_AUTHOR_NAME: nikaple
           GIT_AUTHOR_EMAIL: latifsulistyo.me@gmail.com
-          GIT_COMMITTER_NAME: latipun7
+          GIT_COMMITTER_NAME: nikaple
           GIT_COMMITTER_EMAIL: latifsulistyo.me@gmail.com
         run: yarn release

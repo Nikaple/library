@@ -1,7 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Nerdy Ninja's default renovate preset 🐱‍👤🌅",
-
   "extends": [
     "config:base",
     ":prImmediately",
@@ -11,7 +10,6 @@
     ":timezone(Asia/Jakarta)",
     "github>whitesource/merge-confidence:beta"
   ],
-
   "ignorePaths": [
     "**/node_modules/**",
     "**/bower_components/**",
@@ -29,21 +27,25 @@
     "**/dist/**",
     "**/out/**"
   ],
-
   "prConcurrentLimit": 7,
   "rangeStrategy": "bump",
-  "labels": ["dependencies"],
+  "labels": [
+    "dependencies"
+  ],
   "commitMessageTopic": "`{{{depName}}}`",
-
   "vulnerabilityAlerts": {
     "enabled": true,
-    "labels": ["security", "dependencies"],
+    "labels": [
+      "security",
+      "dependencies"
+    ],
     "semanticCommitType": "security",
     "semanticCommitScope": "deps-tree",
-    "schedule": ["at any time"],
+    "schedule": [
+      "at any time"
+    ],
     "prConcurrentLimit": 0
   },
-
   "lockFileMaintenance": {
     "enabled": true,
     "recreateClosed": true,
@@ -51,27 +53,35 @@
     "commitMessageAction": "Maintain",
     "commitMessageTopic": "lock-file",
     "commitMessageExtra": "",
-    "schedule": ["after 5am and before 9am on monday"],
+    "schedule": [
+      "after 5am and before 9am on monday"
+    ],
     "groupName": "Lock File Maintenance",
     "prConcurrentLimit": 0,
     "prBodyDefinitions": {
       "Change": "All locks refreshed"
     }
   },
-
   "packageRules": [
     {
       "description": "Github Actions commits only major",
-      "matchDepTypes": ["action"],
+      "matchDepTypes": [
+        "action"
+      ],
       "extractVersion": "^(?<version>v\\d+)",
-      "labels": ["dependencies", "github-actions"],
+      "labels": [
+        "dependencies",
+        "github-actions"
+      ],
       "semanticCommitType": "ci",
       "semanticCommitScope": "actions",
       "commitMessageTopic": "`{{{depName}}}`"
     },
     {
       "description": "Group prettier packages",
-      "matchPackageNames": ["prettier"],
+      "matchPackageNames": [
+        "prettier"
+      ],
       "matchPackagePatterns": [
         "^@.*prettier.*\\/",
         "^prettier-(?:plugin|config)-",
@@ -81,7 +91,9 @@
     },
     {
       "description": "Group eslint packages",
-      "matchPackageNames": ["eslint"],
+      "matchPackageNames": [
+        "eslint"
+      ],
       "matchPackagePatterns": [
         "^@.*eslint.*\\/",
         "^eslint-(?:plugin|config)-",
@@ -91,68 +103,106 @@
     },
     {
       "description": "Group latipun's packages",
-      "matchPackagePatterns": ["^@latipun7?\\/", "latipun"],
+      "matchPackagePatterns": [
+        "^@nikaple?\\/",
+        "latipun"
+      ],
       "groupName": "latipun's packages"
     },
     {
       "description": "Rust dependencies label and commits",
-      "matchDatasources": ["crate"],
-      "matchDepTypes": ["dependencies"],
-      "labels": ["dependencies"],
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "labels": [
+        "dependencies"
+      ],
       "semanticCommitType": "build",
       "semanticCommitScope": "deps",
       "commitMessageTopic": "Rust crate `{{{depName}}}`"
     },
     {
       "description": "Rust dev dependencies label and commits",
-      "matchDatasources": ["crate"],
-      "matchDepTypes": ["dev-dependencies"],
-      "labels": ["dev-dependencies"],
+      "matchDatasources": [
+        "crate"
+      ],
+      "matchDepTypes": [
+        "dev-dependencies"
+      ],
+      "labels": [
+        "dev-dependencies"
+      ],
       "semanticCommitType": "build",
       "semanticCommitScope": "deps-dev",
       "commitMessageTopic": "Rust crate `{{{depName}}}`"
     },
     {
       "description": "Dependencies label and commits",
-      "matchDepTypes": ["dependencies"],
-      "labels": ["dependencies"],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "labels": [
+        "dependencies"
+      ],
       "semanticCommitType": "build",
       "semanticCommitScope": "deps",
       "commitMessageTopic": "`{{{depName}}}`"
     },
     {
       "description": "Dev dependencies label and commits",
-      "matchDepTypes": ["devDependencies", "dev-dependencies"],
-      "labels": ["dev-dependencies"],
+      "matchDepTypes": [
+        "devDependencies",
+        "dev-dependencies"
+      ],
+      "labels": [
+        "dev-dependencies"
+      ],
       "semanticCommitType": "build",
       "semanticCommitScope": "deps-dev",
       "commitMessageTopic": "`{{{depName}}}`"
     },
     {
       "description": "NPM packageManager label and commits",
-      "matchDepTypes": ["packageManager"],
-      "labels": ["dependencies", "package-manager"],
+      "matchDepTypes": [
+        "packageManager"
+      ],
+      "labels": [
+        "dependencies",
+        "package-manager"
+      ],
       "semanticCommitType": "build",
       "semanticCommitScope": "{{{depName}}}",
       "commitMessageTopic": "`{{{depName}}}`"
     },
     {
       "description": "Docker label and commits",
-      "matchDatasources": ["docker"],
-      "labels": ["dependencies", "docker"],
+      "matchDatasources": [
+        "docker"
+      ],
+      "labels": [
+        "dependencies",
+        "docker"
+      ],
       "semanticCommitType": "build",
       "semanticCommitScope": "docker",
       "commitMessageTopic": "`{{{depName}}}` Docker tag"
     },
     {
       "description": "Auto merge definitely-typed packages",
-      "matchPackagePrefixes": ["@types/"],
+      "matchPackagePrefixes": [
+        "@types/"
+      ],
       "automerge": true,
       "automergeStrategy": "squash"
     },
     {
       "description": "Disable bump on package.json engines",
-      "matchDepTypes": ["engines"],
+      "matchDepTypes": [
+        "engines"
+      ],
       "enabled": false
     }
   ]

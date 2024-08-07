@@ -1,5 +1,5 @@
 {
-  "extends": "@latipun7/tsconfig/cjs",
+  "extends": "@nikaple/tsconfig/cjs",
   "include": ["src/**/*"],
   "compilerOptions": {
     "isolatedModules": false
